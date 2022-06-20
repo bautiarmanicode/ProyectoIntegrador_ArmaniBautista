@@ -1,0 +1,46 @@
+.row{
+    padding: 20px;
+}
+
+div {
+    background-color: orange ;
+    text-align: center;
+}
+
+/* etiqueta nombre */
+
+
+
+#fotodeperfil{
+    border-radius: 100%;
+    box-shadow: 8px 8px 8px grey;
+}
+
+@media(min-width:576px) {
+ #fotodeperfil{
+    position:absolute;
+    width:16%;
+    border-radius: 100%;
+    box-shadow: 8px 8px 8px grey;
+    left: 3%;
+    top: 600px;
+}
+}
+
+@media(max-width:575px) {
+    #fotodeperfil {
+       position:absolute;
+       width:30%;
+       border-radius: 100%;
+       box-shadow: 8px 8px 8px grey;
+       left: 3%;
+       top: 600px;
+   }
+ }
+
+
+ #nombre{
+    font-weight: bold;
+    margin-top: 30%;
+
+}
