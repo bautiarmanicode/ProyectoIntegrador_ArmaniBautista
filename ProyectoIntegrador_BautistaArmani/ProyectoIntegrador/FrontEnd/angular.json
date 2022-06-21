@@ -105,5 +105,8 @@
       }
     }
   },
-  "defaultProject": "ProyectoIntegrador"
+  "defaultProject": "ProyectoIntegrador",
+  "cli": {
+    "analytics": "05fc3b31-8da5-41b9-92cc-9cc82dfc01c6"
+  }
 }
